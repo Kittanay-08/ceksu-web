@@ -1,0 +1,7 @@
+name: ceksu_web
+ 
+services:
+  web:
+    build: .
+    ports:
+      - "8080:80"
